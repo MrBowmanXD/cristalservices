@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+.right {
+    text-align: right;
+}
+
+.header-img {
+ background-image: url("../img/logotipo.png");
+ background-position: center;
+ background-size: cover;
+ height: 90vh;
+ margin-top: 100px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.panfleto {
+    width: 400px;
+    height: 400px;
+}
+
